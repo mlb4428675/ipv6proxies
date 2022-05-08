@@ -96,10 +96,10 @@ fi
 
   #echo "$MAXCOUNT случайных IPv6:"
 
-  while [ "$count" -le $MAXCOUNT ]        # Генерация 20 ($MAXCOUNT) случайных чисел.
+  while [ "$count" -le $MAXCOUNT ]        # Generate 20 ($MAXCOUNT) random numbers.
   do
     	rnd_ip_block
-          let "count += 1"                # Нарастить счетчик.
+          let "count += 1"                # Increment counter.
           done
 
 
